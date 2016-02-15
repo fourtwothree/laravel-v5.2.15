@@ -10,3 +10,18 @@ segmentfault.com
 laravel5系列入门教程：https://lvwenhan.com/laravel/432.html
 laravel学习资料发布者的github: github.com/johnlui/
 这个东西好啊：https://segmentfault.com/blog/jellybool
+
+
+E:\wamp\bin\apache\apache2.4.9\conf\httpd.conf
+
+LoadModule rewrite_module modules/mod_rewrite.so 去掉了#号
+
+E:\wamp\bin\apache\apache2.4.9\conf\extra\httpd-vhosts.conf
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host2.example.com
+    DocumentRoot "E:/wamp/www/laravel-v5.2.15/public"
+    ServerName www.abox.com
+    ErrorLog "logs/dummy-host2.example.com-error.log"
+    CustomLog "logs/dummy-host2.example.com-access.log" common
+</VirtualHost>

@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome')->with('title', 'd45HE');
+});
+
+Route::get('/h', function () {
+    return 'why';
 });
 
 /*
