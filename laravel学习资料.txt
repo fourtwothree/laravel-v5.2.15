@@ -9,3 +9,4 @@ laravel免费视频教程地址 https://laravist.com/series/laravel-5-basic
 segmentfault.com
 laravel5系列入门教程：https://lvwenhan.com/laravel/432.html
 laravel学习资料发布者的github: github.com/johnlui/
+这个东西好啊：https://segmentfault.com/blog/jellybool
