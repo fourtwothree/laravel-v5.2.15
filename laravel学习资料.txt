@@ -8,3 +8,4 @@ sublime 插件: http://www.douban.com/note/474507021/
 laravel免费视频教程地址 https://laravist.com/series/laravel-5-basic
 segmentfault.com
 laravel5系列入门教程：https://lvwenhan.com/laravel/432.html
+laravel学习资料发布者的github: github.com/johnlui/
