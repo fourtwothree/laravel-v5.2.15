@@ -29,8 +29,3 @@ Route::get('/', function () {
 Route::group(['middleware' => ['web']], function () {
     //
 });
-
-Route::get('fapp/', function(){
-	// return 'Hello 点睛科技！';
-	return view('hello')->with('title', 'Hello 点睛科技！');
-});
