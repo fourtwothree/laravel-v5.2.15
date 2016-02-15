@@ -1,0 +1,8 @@
+无法启动程序,因为计算机中丢失MSVCR110.dll。
+xuchen
+chenzhe
+huoweiyuan
+zhangguohao
+
+sublime 插件: http://www.douban.com/note/474507021/
+laravel免费视频教程地址 https://laravist.com/series/laravel-5-basic
