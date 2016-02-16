@@ -33,3 +33,10 @@ C:\Windows\System32\drivers\etc\hosts 用管理员取得权限
 新同事的名字
 Include conf/extra/httpd-vhosts.conf 去掉#号
 
+php artisan migrate
+FataErrorException in ProviderRepository line 146 Class 'Ignited\LaravelOmnipay\LaravelOmnipayServiceProvider' not found
+错误原因：包不全。
+wamp要装64位的，不能下可能是浏览器的问题。
+装一个原生的git软件
+
+
