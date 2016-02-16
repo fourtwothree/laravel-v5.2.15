@@ -16,7 +16,7 @@ laravel学习资料发布者的github: github.com/johnlui/
 
 E:\wamp\bin\apache\apache2.4.9\conf\httpd.conf
 
-LoadModule rewrite_module modules/mod_rewrite.so 去掉了#号
+LoadModule rewrite_module modules/mod_rewrite.so 去掉#号
 
 E:\wamp\bin\apache\apache2.4.9\conf\extra\httpd-vhosts.conf
 
@@ -28,4 +28,8 @@ E:\wamp\bin\apache\apache2.4.9\conf\extra\httpd-vhosts.conf
     CustomLog "logs/dummy-host2.example.com-access.log" common
 </VirtualHost>
 
+
 C:\Windows\System32\drivers\etc\hosts 用管理员取得权限
+新同事的名字
+Include conf/extra/httpd-vhosts.conf 去掉#号
+
