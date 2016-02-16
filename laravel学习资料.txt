@@ -3,6 +3,8 @@ xuchen
 chenzhe
 huoweiyuan
 zhangguohao
+baijing
+zhenjiaxing
 
 sublime 插件: http://www.douban.com/note/474507021/
 laravel免费视频教程地址 https://laravist.com/series/laravel-5-basic
@@ -25,3 +27,5 @@ E:\wamp\bin\apache\apache2.4.9\conf\extra\httpd-vhosts.conf
     ErrorLog "logs/dummy-host2.example.com-error.log"
     CustomLog "logs/dummy-host2.example.com-access.log" common
 </VirtualHost>
+
+C:\Windows\System32\drivers\etc\hosts 用管理员取得权限

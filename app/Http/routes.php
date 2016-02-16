@@ -12,11 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome')->with('title', 'd45HE');
+    return view('welcome')->with('title', 'Hello World');
 });
 
-Route::get('/h', function () {
+Route::get('h', function () {
     return 'why';
+});
+
+Route::get('first', function () {
+    return view('first')->with('ok', '这次行了');
 });
 
 /*
