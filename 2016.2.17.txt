@@ -1,0 +1,20 @@
+$articles = Article::all();
+我直接这么写会报
+Class 'App\Http\Controllers\Article' not found
+改成 $articles = \App\Article::all();
+就可以了
+
+protected表示受保护的，只有本类或子类或父类中可以访问；
+
+修改了fillable属性后需要退出tinker,再进一次，才可以生效。
+
+categories
+pages
+site_infos
+site_metas
+
+配置虚拟主机：
+记得前天修改的是httpd-vhost文件（难道记错了？）
+昨天修改的是httpd文件
+
+MassAssignmentException 任务委派不符合规则
