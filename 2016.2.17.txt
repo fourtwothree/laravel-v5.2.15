@@ -18,3 +18,4 @@ site_metas
 昨天修改的是httpd文件
 
 MassAssignmentException 任务委派不符合规则
+lifetemplate 是什么？
