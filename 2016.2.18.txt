@@ -1,0 +1,28 @@
+Git 工作流程
+本章节我们将为大家介绍 Git 的工作流程。
+	一般工作流程如下：
+		克隆 Git 资源作为工作目录。
+		在克隆的资源上添加或修改文件。
+		如果其他人修改了，你可以更新资源。
+		在提交前查看修改。
+		提交修改。
+		在修改完成后，如果发现错误，可以撤回提交并再次修改并提交。
+git菜鸟教程
+http://www.runoob.com/git/git-tutorial.html
+
+一个本地项目与git相结合有两种情况:
+http://www.cnblogs.com/silentjesse/p/3566714.html
+
+git commit
+git add
+git pull
+git push
+
+1.git pull
+2.git status
+3.add 之前git status 看下哪些文件修改了
+4.git add (modified: app/Http/routes.php) 修改的多的话.
+5.git commit -m '做版本的原因'
+6.git push originmaster
+
+有问题就问，绝不拖延，问到岚之山的尽头。
