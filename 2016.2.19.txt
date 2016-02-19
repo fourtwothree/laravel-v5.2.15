@@ -45,3 +45,21 @@ user_guides
 user_logs
 user_skills
 user_tasks
+
+原来是Task模型中重新定义了
+class Task extends Model
+{
+  public function category()
+  {
+    return $this->hasOne('App\Category','id','categ_id');
+  }
+  
+  public function get_option()
+  {
+    return json_decode($this->metas);
+  }
+  
+  protected $fillable = [
+    'test_pay','test_type'
+  ]
+}
