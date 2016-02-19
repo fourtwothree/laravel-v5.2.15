@@ -1,0 +1,47 @@
+<% %>中的内容在服务器端运行
+<script></script>标签如果没有runat=server属性那就是在客户端运行的
+
+<% 代码 %>在服务器端运行
+
+<script runat=server>
+代码
+</script>
+在服务端运行
+
+<script>
+代码
+</script>
+在客户端运行
+
+php artisan db::seed
+
+拉取(pull) 进入目录E:\wamp\www\abox git pull
+
+克隆(clone) 进入目录E:\wamp\www\ git clone http://192.168.2.66/git/abox
+
+提交(add) 所有修改文件 进入目录E:\wamp\www\abox git add .
+
+查看提交(status) 进入目录E:\wamp\www\abox git status
+
+做版本(commit) 进入目录E:\wamp\www\abox git commit -m "版本描述"
+
+再次拉取最新代码(pull),查看是否有代码冲突
+进入目录E:\wamp\www\abox git pull
+
+如有冲突，查看conflicts:
+
+如无冲突（解决冲突）,推送到中心服务器上、
+进入目录E:\wamp\www\abox git push originmaster
+
+有数据的表：
+tasks
+task_actions
+task_batches
+task_items
+task_users
+users
+user_extras
+user_guides
+user_logs
+user_skills
+user_tasks
