@@ -39,4 +39,10 @@ FataErrorException in ProviderRepository line 146 Class 'Ignited\LaravelOmnipay\
 wamp要装64位的，不能下可能是浏览器的问题。
 装一个原生的git软件
 
+http://git.oschina.net/
+
+http://git-scm.com/book/zh/v2
+
+https://help.github.com/
+
 
