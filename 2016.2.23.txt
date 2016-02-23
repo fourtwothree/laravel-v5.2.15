@@ -1,0 +1,25 @@
+2016.2.22
+1.my_task_info()里的$data是多维数组在blade模板中并没有用$data['']
+laravel会自动按照键值对的方式自动识别到注册的变量
+
+2.slug是用于无限级分类所建的字段
+
+3.migration是表的结构（用来创建表的脚本），并不是表的数据。git pull不会影响表的数据...只会获取创建表的结构的最新脚本
+
+4.auth::user()获取当前系统用户的数据
+
+5.数据库中查找包含特定字段的表：
+SELECT * FROM information_schema.`CLOUMNS` WHERE COLUMN_NAME='status(字段名)';
+SELECT * FROM information_schema.`CLOUMNS` WHERE COLUMN_NAME like '%invite%';
+
+
+2016.2.23
+1.blade模板引擎里的语法是不能当成html来注释掉的，因为他们是PHP语句。
+
+2..env 文件不应该被提交到应用程序的版本控制系统
+
+3.注意： 路由参数不能包含 - 字符。使用下划线替代 (_)。
+
+4.currentRouteName 方法会返回目前请求的路由名称：
+
+$name = Route::currentRouteName();
