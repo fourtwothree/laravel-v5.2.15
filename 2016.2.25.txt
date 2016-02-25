@@ -1,0 +1,7 @@
+1.PHP设计模式
+
+2.使用 Where Null 找有未配置的值的数据
+
+3.PHP5.4之后新增了"trait"关键字
+
+4.php artisan db:seed 填充数据
