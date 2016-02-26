@@ -24,8 +24,8 @@ E:\wamp\bin\apache\apache2.4.9\conf\extra\httpd-vhosts.conf
     ServerAdmin webmaster@dummy-host2.example.com
     DocumentRoot "E:/wamp/www/laravel-v5.2.15/public"
     ServerName www.abox.com
-    ErrorLog "logs/dummy-host2.example.com-error.log"
-    CustomLog "logs/dummy-host2.example.com-access.log" common
+    ErrorLog "logs/www.abox.com-error.log"
+    CustomLog "logs/www.abox.com-access.log" common
 </VirtualHost>
 
 
@@ -44,5 +44,7 @@ http://git.oschina.net/
 http://git-scm.com/book/zh/v2
 
 https://help.github.com/
+
+http://laravelacademy.org/ laravel学院
 
 
