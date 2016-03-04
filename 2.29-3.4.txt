@@ -1,0 +1,59 @@
+2016.2.29
+1.奇怪:
+Route::get('testCsrf',function(){
+    $csrf_field = csrf_field();
+    $html = <<<GET
+        <form method="POST" action="/testCsrf">
+            {$csrf_field}
+            <input type="submit" value="Test"/>
+        </form>
+GET; //GET一定要顶格写，不然会出错！！！！！！！！！！！！！
+    return $html;
+});
+
+2.
+VirtualBox无法打开，打开后提示创建COM对象失败；
+被召者 RC:
+   
+E_NOINTERFACE (0x80004002)
+
+我把我的问题复制了下来：
+创建 COM 对象失败.
+应用程序将被中断.
+被召者 RC:    E_NOINTERFACE (0x80004002)    
+
+我遇到的问题与你完全一致，在网络上找的许多方法都没用，可以说网络上几乎没有解决。。。。
+我自己摸索到了接解决方案。。。
+其实这个错误是因为VirtualBox不兼容Win7引起的，只要把VirtualBox的兼容模式改为出Win7以外的就行了。。
+
+2016.3.1
+sublime text 中没有直接可以删除空行的功能和快捷键,但我们可以安装一个插件"DeleteBlankLines"来实现.
+插件地址:https://github.com/NicholasBuse/sublime_DeleteBlankLines
+在sublime text中Ctrl+Shift+P打开命令框输入install package,搜索DeleteBlankLines并安装即可.
+
+相关快捷键如下:
+在Windows操作系统中:
+Ctrl+Alt+Backspace --> 删除所有空行
+Ctrl+Alt+Shift+Backspace --> 删除多余空行
+在OSX操作系统中:
+Ctrl+Alt+Delete --> 删除所有空行
+Ctrl+Alt+Shift+Delete --> 删除多余空行
+在Linux操作系统中:
+Ctrl+Alt+Backspace --> 删除所有空行
+Ctrl+Alt+Shift+Backspace --> 删除多余空行
+删除所有空行:删除所有空行
+删除多余空行:将两个及两个以上的连续空行替换成一个空行
+注意:如果行中带有tab或空格字符则不会被删除,只删除只含有\n或\r的空行
+
+2016.3.3
+1.SourceTree 是 Windows 和Mac OS X 下免费的 Git 和 Hg 客户端
+
+2.
+a. git pull发现冲突
+b. 解决冲突一定要彻底、干净
+c. 解决完冲突之后, 重新git status、git add 、git commit -m ''、git pull、git push
+
+2016.3.4
+1.新技术 老技术 英文 国外laravel视频 google 整套UI
+2.laravel symfony CI 三个比较难的框架 其他框架较简单
+3.坚持每天看一篇英文文档
