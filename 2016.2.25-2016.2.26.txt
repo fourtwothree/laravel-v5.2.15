@@ -1,0 +1,15 @@
+2016.2.25
+1.PHP设计模式
+
+2.使用 Where Null 找有未配置的值的数据
+
+3.PHP5.4之后新增了"trait"关键字
+
+4.php artisan db:seed 填充数据
+
+2016.2.26
+1.Grunt是基于Node.js的项目构建工具
+
+2.搞定Ajax
+
+3.10:57 发包方默认创建任务不能显示在前台 原因:默认创建任务的状态（status）为draft
